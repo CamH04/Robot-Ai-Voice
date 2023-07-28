@@ -1,0 +1,13 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+.voice_to_text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
