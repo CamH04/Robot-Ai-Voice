@@ -43,6 +43,14 @@
             "Microsoft.ML": {
               "target": "Package",
               "version": "[1.6.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[115.0.5790.10200, )"
             }
           },
           "imports": [

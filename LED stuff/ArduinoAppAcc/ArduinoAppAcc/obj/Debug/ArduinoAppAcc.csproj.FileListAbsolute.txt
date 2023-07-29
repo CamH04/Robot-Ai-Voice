@@ -1,0 +1,8 @@
+C:\Users\Gamer\Desktop\ArduinoAppAcc\ArduinoAppAcc\bin\Debug\ArduinoAppAcc.exe.config
+C:\Users\Gamer\Desktop\ArduinoAppAcc\ArduinoAppAcc\bin\Debug\ArduinoAppAcc.exe
+C:\Users\Gamer\Desktop\ArduinoAppAcc\ArduinoAppAcc\bin\Debug\ArduinoAppAcc.pdb
+C:\Users\Gamer\Desktop\ArduinoAppAcc\ArduinoAppAcc\obj\Debug\ArduinoAppAcc.csproj.AssemblyReference.cache
+C:\Users\Gamer\Desktop\ArduinoAppAcc\ArduinoAppAcc\obj\Debug\ArduinoAppAcc.csproj.SuggestedBindingRedirects.cache
+C:\Users\Gamer\Desktop\ArduinoAppAcc\ArduinoAppAcc\obj\Debug\ArduinoAppAcc.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\Desktop\ArduinoAppAcc\ArduinoAppAcc\obj\Debug\ArduinoAppAcc.exe
+C:\Users\Gamer\Desktop\ArduinoAppAcc\ArduinoAppAcc\obj\Debug\ArduinoAppAcc.pdb
