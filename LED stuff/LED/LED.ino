@@ -14,6 +14,7 @@ void setup(){
   lc.shutdown(0,false);       //Turning off power saving mode
   lc.setIntensity(0,1);      // Brightness (god help me do not go above 10)
   lc.clearDisplay(0);         // and clear the display
+  PrintNeutral();
 }
 
 void loop(){
@@ -27,10 +28,6 @@ void ProtocallLoop(){
     switch (message){
       case 's':
       PrintSad();
-      break;
-      
-      case 'n':
-      PrintNeutral();
       break;
 
       case 'h':
