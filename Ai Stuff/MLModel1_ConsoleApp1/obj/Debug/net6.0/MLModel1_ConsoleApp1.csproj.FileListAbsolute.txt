@@ -45,3 +45,13 @@ C:\Users\Gamer\Desktop\RobotFiles\Ai Stuff\MLModel1_ConsoleApp1\obj\Debug\net6.0
 C:\Users\Gamer\Desktop\RobotFiles\Ai Stuff\MLModel1_ConsoleApp1\obj\Debug\net6.0\MLModel1_ConsoleApp1.pdb
 C:\Users\Gamer\Desktop\RobotFiles\Ai Stuff\MLModel1_ConsoleApp1\obj\Debug\net6.0\MLModel1_ConsoleApp1.genruntimeconfig.cache
 C:\Users\Gamer\Desktop\RobotFiles\Ai Stuff\MLModel1_ConsoleApp1\obj\Debug\net6.0\ref\MLModel1_ConsoleApp1.dll
+C:\Users\Gamer\Desktop\RobotFiles\Ai Stuff\MLModel1_ConsoleApp1\bin\Debug\net6.0\Microsoft.ML.FastTree.dll
+C:\Users\Gamer\Desktop\RobotFiles\Ai Stuff\MLModel1_ConsoleApp1\bin\Debug\net6.0\Microsoft.ML.LightGbm.dll
+C:\Users\Gamer\Desktop\RobotFiles\Ai Stuff\MLModel1_ConsoleApp1\bin\Debug\net6.0\runtimes\linux-x64\native\lib_lightgbm.so
+C:\Users\Gamer\Desktop\RobotFiles\Ai Stuff\MLModel1_ConsoleApp1\bin\Debug\net6.0\runtimes\osx-x64\native\lib_lightgbm.dylib
+C:\Users\Gamer\Desktop\RobotFiles\Ai Stuff\MLModel1_ConsoleApp1\bin\Debug\net6.0\runtimes\win-x64\native\lib_lightgbm.dll
+C:\Users\Gamer\Desktop\RobotFiles\Ai Stuff\MLModel1_ConsoleApp1\bin\Debug\net6.0\runtimes\win-x64\native\lightgbm.exe
+C:\Users\Gamer\Desktop\RobotFiles\Ai Stuff\MLModel1_ConsoleApp1\bin\Debug\net6.0\runtimes\linux-x64\native\libFastTreeNative.so
+C:\Users\Gamer\Desktop\RobotFiles\Ai Stuff\MLModel1_ConsoleApp1\bin\Debug\net6.0\runtimes\osx-x64\native\libFastTreeNative.dylib
+C:\Users\Gamer\Desktop\RobotFiles\Ai Stuff\MLModel1_ConsoleApp1\bin\Debug\net6.0\runtimes\win-x64\native\FastTreeNative.dll
+C:\Users\Gamer\Desktop\RobotFiles\Ai Stuff\MLModel1_ConsoleApp1\bin\Debug\net6.0\runtimes\win-x86\native\FastTreeNative.dll

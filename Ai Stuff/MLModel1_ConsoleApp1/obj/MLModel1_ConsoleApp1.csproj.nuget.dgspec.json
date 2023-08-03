@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[1.6.0, )"
             },
+            "Microsoft.ML.LightGbm": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[4.10.0, )"

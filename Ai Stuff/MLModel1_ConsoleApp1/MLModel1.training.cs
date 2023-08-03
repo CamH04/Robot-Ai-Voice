@@ -32,7 +32,7 @@ namespace MLModel1_ConsoleApp1
                                     .Append(mlContext.Transforms.Concatenate(@"Features", @"col0"))      
                                     .Append(mlContext.Transforms.Conversion.MapValueToKey(@"col1", @"col1"))      
                                     .Append(mlContext.Transforms.NormalizeMinMax(@"Features", @"Features"))      
-                                    .Append(mlContext.MulticlassClassification.Trainers.OneVersusAll(binaryEstimator:mlContext.BinaryClassification.Trainers.LbfgsLogisticRegression(l1Regularization:0.530579425443436F,l2Regularization:0.119338251259286F,labelColumnName:@"col1",featureColumnName:@"Features"), labelColumnName: @"col1"))      
+                                    .Append(mlContext.MulticlassClassification.Trainers.OneVersusAll(binaryEstimator:mlContext.BinaryClassification.Trainers.LbfgsLogisticRegression(l1Regularization:0.03125F,l2Regularization:5.16364690091617F,labelColumnName:@"col1",featureColumnName:@"Features"), labelColumnName: @"col1"))      
                                     .Append(mlContext.Transforms.Conversion.MapKeyToValue(@"PredictedLabel", @"PredictedLabel"));
 
             return pipeline;

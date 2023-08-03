@@ -33,6 +33,10 @@ void ProtocallLoop(){
       case 'h':
       PrintHappy();
       break;
+
+      case 'n':
+      PrintNeutral();
+      break;
     }  
   }
 }

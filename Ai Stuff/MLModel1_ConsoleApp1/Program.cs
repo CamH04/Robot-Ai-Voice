@@ -12,6 +12,7 @@ namespace MLModel1_ConsoleApp1
     {
         static void Main(string[] args)
         {
+            string name = "Max"; // Haha because MAX7219 Led Matrix 
             // setting up I/O stuff
             SerialPort serialPort;
             //com port, baudrate
@@ -47,24 +48,37 @@ namespace MLModel1_ConsoleApp1
                 // 0 is bad
                 // 1 is good
                 Console.WriteLine($"Result: " + Result.Prediction);
-                Console.WriteLine("does it work: " + VeiwResult);
-                Console.WriteLine("-------------------------------------");
 
 
-                // writes to arduino
+                // checks n stuff
+                if(elementRead == "{}")
+                {
+                    Console.WriteLine("Writing Nutruela");
+                    serialPort.Write("n");
+                    Console.WriteLine("-------------------------------------");
+                    Thread.Sleep(2000);
+                    continue;
+                }
+                // writing happy or sad
                 if (VeiwResult == Convert.ToDouble(1))
                 {
                     Console.WriteLine("Writing Happy");
                     serialPort.Write("h");
+                    if (elementRead.Contains(name))
+                    {
+                        // ---------------------------------------------------------
+                        // have yet to implement a new animation
+                        Console.WriteLine("NAME CONTAINED");
+                    }
+                    Console.WriteLine("-------------------------------------");
                 }
                 if (VeiwResult == Convert.ToDouble(0))
                 {
                     Console.WriteLine("Writing Sad");
                     serialPort.Write("s");
+                    Console.WriteLine("-------------------------------------");
                 }
-
-                Thread.Sleep(2000);
-
+                Thread.Sleep(3000);
             }
         }
     }
