@@ -12,7 +12,7 @@ namespace MLModel1_ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string name = "Max"; // Haha because MAX7219 Led Matrix 
+            string name = "Max"; // Haha because MAX7219 Led Matrix
             // setting up I/O stuff
             SerialPort serialPort;
             //com port, baudrate
@@ -66,9 +66,11 @@ namespace MLModel1_ConsoleApp1
                     serialPort.Write("h");
                     if (elementRead.Contains(name))
                     {
-                        // ---------------------------------------------------------
-                        // have yet to implement a new animation
+                        serialPort.Write("l");
                         Console.WriteLine("NAME CONTAINED");
+                        Thread.Sleep(2000);
+                        serialPort.Write("h");
+                        Console.WriteLine("Writing Happy");
                     }
                     Console.WriteLine("-------------------------------------");
                 }
@@ -80,6 +82,7 @@ namespace MLModel1_ConsoleApp1
                 }
                 Thread.Sleep(3000);
             }
+            
         }
     }
 }
