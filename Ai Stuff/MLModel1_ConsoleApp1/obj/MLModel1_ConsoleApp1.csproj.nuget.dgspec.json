@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gamer\\Desktop\\RobotFiles\\Ai Stuff\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj": {}
+    "C:\\Users\\Cameron\\Desktop\\RobotFiles\\Ai Stuff\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gamer\\Desktop\\RobotFiles\\Ai Stuff\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj": {
+    "C:\\Users\\Cameron\\Desktop\\RobotFiles\\Ai Stuff\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gamer\\Desktop\\RobotFiles\\Ai Stuff\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\Cameron\\Desktop\\RobotFiles\\Ai Stuff\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj",
         "projectName": "MLModel1_ConsoleApp1",
-        "projectPath": "C:\\Users\\Gamer\\Desktop\\RobotFiles\\Ai Stuff\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj",
-        "packagesPath": "C:\\Users\\Gamer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gamer\\Desktop\\RobotFiles\\Ai Stuff\\MLModel1_ConsoleApp1\\obj\\",
+        "projectPath": "C:\\Users\\Cameron\\Desktop\\RobotFiles\\Ai Stuff\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj",
+        "packagesPath": "C:\\Users\\Cameron\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cameron\\Desktop\\RobotFiles\\Ai Stuff\\MLModel1_ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cameron\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
             },
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
-              "version": "[115.0.5790.10200, )"
+              "version": "[118.0.5993.7000, )"
             },
             "System.IO.Ports": {
               "target": "Package",
@@ -67,7 +67,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -76,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

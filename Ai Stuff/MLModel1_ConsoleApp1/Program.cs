@@ -64,7 +64,7 @@ namespace MLModel1_ConsoleApp1
                 {
                     Console.WriteLine("Writing Happy");
                     serialPort.Write("h");
-                    if (elementRead.Contains(name))
+                    if (elementRead.Contains(name) || elementRead.Contains("Jess") || elementRead.Contains("jess"))
                     {
                         serialPort.Write("l");
                         Console.WriteLine("NAME CONTAINED");

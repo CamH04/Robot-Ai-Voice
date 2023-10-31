@@ -40,22 +40,50 @@
           "System.Threading.Channels": "4.7.1"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.ML.Core.dll": {},
-          "lib/netstandard2.0/Microsoft.ML.Data.dll": {},
-          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {},
-          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {},
-          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {},
-          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {},
-          "lib/netstandard2.0/Microsoft.ML.dll": {}
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {
+            "related": ".xml"
+          },
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {
+            "related": ".xml"
+          },
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {
+            "related": ".xml"
+          },
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {
+            "related": ".xml"
+          },
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {
+            "related": ".xml"
+          },
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {
+            "related": ".xml"
+          },
+          "lib/netstandard2.0/Microsoft.ML.dll": {
+            "related": ".Core.xml;.Data.xml;.KMeansClustering.xml;.PCA.xml;.StandardTrainers.xml;.Transforms.xml;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.ML.Core.dll": {},
-          "lib/netstandard2.0/Microsoft.ML.Data.dll": {},
-          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {},
-          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {},
-          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {},
-          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {},
-          "lib/netstandard2.0/Microsoft.ML.dll": {}
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {
+            "related": ".xml"
+          },
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {
+            "related": ".xml"
+          },
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {
+            "related": ".xml"
+          },
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {
+            "related": ".xml"
+          },
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {
+            "related": ".xml"
+          },
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {
+            "related": ".xml"
+          },
+          "lib/netstandard2.0/Microsoft.ML.dll": {
+            "related": ".Core.xml;.Data.xml;.KMeansClustering.xml;.PCA.xml;.StandardTrainers.xml;.Transforms.xml;.xml"
+          }
         },
         "build": {
           "build/netstandard2.0/Microsoft.ML.props": {},
@@ -95,10 +123,14 @@
       "Microsoft.ML.CpuMath/1.6.0": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.ML.CpuMath.dll": {}
+          "lib/netcoreapp3.1/Microsoft.ML.CpuMath.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.ML.CpuMath.dll": {}
+          "lib/netcoreapp3.1/Microsoft.ML.CpuMath.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "build/netstandard2.0/_._": {}
@@ -141,10 +173,14 @@
           "System.Memory": "4.5.3"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {}
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {}
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.ML.FastTree/1.6.0": {
@@ -153,10 +189,14 @@
           "Microsoft.ML": "1.6.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.ML.FastTree.dll": {}
+          "lib/netstandard2.0/Microsoft.ML.FastTree.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.ML.FastTree.dll": {}
+          "lib/netstandard2.0/Microsoft.ML.FastTree.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "build/netstandard2.0/_._": {}
@@ -188,10 +228,14 @@
           "Microsoft.ML.FastTree": "1.6.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.ML.LightGbm.dll": {}
+          "lib/netstandard2.0/Microsoft.ML.LightGbm.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.ML.LightGbm.dll": {}
+          "lib/netstandard2.0/Microsoft.ML.LightGbm.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {
@@ -215,10 +259,14 @@
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "runtime.linux-arm.runtime.native.System.IO.Ports/8.0.0-preview.6.23329.7": {
@@ -291,7 +339,7 @@
           "buildTransitive/Selenium.WebDriver.targets": {}
         }
       },
-      "Selenium.WebDriver.ChromeDriver/115.0.5790.10200": {
+      "Selenium.WebDriver.ChromeDriver/118.0.5993.7000": {
         "type": "package",
         "build": {
           "build/Selenium.WebDriver.ChromeDriver.targets": {}
@@ -300,7 +348,9 @@
       "System.CodeDom/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.CodeDom.dll": {}
+          "ref/netstandard2.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
           "lib/netstandard2.0/System.CodeDom.dll": {}
@@ -309,10 +359,14 @@
       "System.Collections.Immutable/1.5.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.IO/4.3.0": {
@@ -325,7 +379,9 @@
           "System.Threading.Tasks": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.5/System.IO.dll": {}
+          "ref/netstandard1.5/System.IO.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.IO.Ports/8.0.0-preview.6.23329.7": {
@@ -334,10 +390,14 @@
           "runtime.native.System.IO.Ports": "8.0.0-preview.6.23329.7"
         },
         "compile": {
-          "lib/net6.0/System.IO.Ports.dll": {}
+          "lib/net6.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/System.IO.Ports.dll": {}
+          "lib/net6.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
@@ -372,7 +432,9 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.5/System.Reflection.dll": {}
+          "ref/netstandard1.5/System.Reflection.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Reflection.Emit.ILGeneration/4.3.0": {
@@ -383,7 +445,9 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll": {}
+          "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
           "lib/netstandard1.3/System.Reflection.Emit.ILGeneration.dll": {}
@@ -398,7 +462,9 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll": {}
+          "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
           "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll": {}
@@ -412,7 +478,9 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/System.Reflection.Primitives.dll": {}
+          "ref/netstandard1.0/System.Reflection.Primitives.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime/4.3.0": {
@@ -422,7 +490,9 @@
           "Microsoft.NETCore.Targets": "1.1.0"
         },
         "compile": {
-          "ref/netstandard1.5/System.Runtime.dll": {}
+          "ref/netstandard1.5/System.Runtime.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Text.Encoding/4.3.0": {
@@ -433,16 +503,22 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Text.Encoding.dll": {}
+          "ref/netstandard1.3/System.Text.Encoding.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Threading.Channels/4.7.1": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
+          "lib/netcoreapp3.0/System.Threading.Channels.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
+          "lib/netcoreapp3.0/System.Threading.Channels.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Threading.Tasks/4.3.0": {
@@ -453,7 +529,9 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Threading.Tasks.dll": {}
+          "ref/netstandard1.3/System.Threading.Tasks.dll": {
+            "related": ".xml"
+          }
         }
       }
     }
@@ -773,10 +851,10 @@
         "selenium.webdriver.nuspec"
       ]
     },
-    "Selenium.WebDriver.ChromeDriver/115.0.5790.10200": {
-      "sha512": "2YLCCJpAORYwtUxs/zKscVZiAY++Bb2Ze8eeFa22fjKiGHgvsUwotHUSoze7O72kPM8lzZTwTo0vOlX4HqrYrA==",
+    "Selenium.WebDriver.ChromeDriver/118.0.5993.7000": {
+      "sha512": "P+oMf57Rbt2mKr3k2OFijtg+Vm3xHYe147LWQLqB0aumjKuWxoZVZw1+K7rr9KqdGe646kvIVjtQH0+eheCawA==",
       "type": "package",
-      "path": "selenium.webdriver.chromedriver/115.0.5790.10200",
+      "path": "selenium.webdriver.chromedriver/118.0.5993.7000",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -792,7 +870,7 @@
         "driver/win32/LICENSE.chromedriver",
         "driver/win32/chromedriver.exe",
         "nupkg-icon.png",
-        "selenium.webdriver.chromedriver.115.0.5790.10200.nupkg.sha512",
+        "selenium.webdriver.chromedriver.118.0.5993.7000.nupkg.sha512",
         "selenium.webdriver.chromedriver.nuspec"
       ]
     },
@@ -1469,24 +1547,24 @@
       "Microsoft.ML >= 1.6.0",
       "Microsoft.ML.LightGbm >= 1.6.0",
       "Selenium.WebDriver >= 4.10.0",
-      "Selenium.WebDriver.ChromeDriver >= 115.0.5790.10200",
+      "Selenium.WebDriver.ChromeDriver >= 118.0.5993.7000",
       "System.IO.Ports >= 8.0.0-preview.6.23329.7"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gamer\\.nuget\\packages\\": {}
+    "C:\\Users\\Cameron\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gamer\\Desktop\\RobotFiles\\Ai Stuff\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\Cameron\\Desktop\\RobotFiles\\Ai Stuff\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj",
       "projectName": "MLModel1_ConsoleApp1",
-      "projectPath": "C:\\Users\\Gamer\\Desktop\\RobotFiles\\Ai Stuff\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj",
-      "packagesPath": "C:\\Users\\Gamer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gamer\\Desktop\\RobotFiles\\Ai Stuff\\MLModel1_ConsoleApp1\\obj\\",
+      "projectPath": "C:\\Users\\Cameron\\Desktop\\RobotFiles\\Ai Stuff\\MLModel1_ConsoleApp1\\MLModel1_ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\Cameron\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Cameron\\Desktop\\RobotFiles\\Ai Stuff\\MLModel1_ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Cameron\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1526,7 +1604,7 @@
           },
           "Selenium.WebDriver.ChromeDriver": {
             "target": "Package",
-            "version": "[115.0.5790.10200, )"
+            "version": "[118.0.5993.7000, )"
           },
           "System.IO.Ports": {
             "target": "Package",
@@ -1539,7 +1617,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -1548,7 +1627,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
